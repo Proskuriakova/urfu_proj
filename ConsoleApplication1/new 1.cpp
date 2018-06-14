@@ -30,7 +30,7 @@ double G(double x, double y){
 
 int main{
 	double h = 0.01;
-	int n = 1000;
+	int n = 2000;
 	X[0] = 2;
 	Y[0] = 2;
 	D = 1;
