@@ -56,7 +56,8 @@ int main{
 
 
 	for (int i = 0; i <= n; i++){
-		cout << 'X[' << i << ']=' << X[i] << ' ';
+		cout << 'X[' << i << ']=' << X[i] << '  ';
+		cout << 'Y[' << i << ']=' << Y[i] << '  ';
 	}
 	return 0;
 }
