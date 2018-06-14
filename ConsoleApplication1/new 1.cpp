@@ -31,9 +31,9 @@ double G(double x, double y){
 int main{
 	double h = 0.01;
 	int n = 1000;
-	X[0] = 1;
-	Y[0] = 1;
-	D = -3.0;
+	X[0] = 2;
+	Y[0] = 2;
+	D = 1;
 
 
 
@@ -52,10 +52,7 @@ int main{
 		Y[i + 1] = Y[i] + (L1[i] + 2 * L2[i] + 2 * L3[i] + L4[i]) / 6;
 	}
 
-	//for (int i = 0; i<n; i++)   
-	//	f << X[i] << '  ' << Y[i] << endl;
 
-	//f.close();
 
 
 	for (int i = 0; i <= n; i++){
