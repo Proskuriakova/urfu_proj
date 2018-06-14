@@ -35,13 +35,7 @@ int main{
 	Y[0] = 1;
 	D = -3.0;
 
-	//fstream f;
 
-	//if (f == NULL)
-	//{
-	//	cout << "error!";
-	//	return -1;
-	//}
 
 	for (int i = 0; i < n; i++){
 
